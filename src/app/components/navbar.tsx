@@ -16,7 +16,7 @@ const Navbar = () => {
                         Projects
                     </Link>
                 </div>
-                <div className='text-base duration-300 hover:bg-transparenthover:px-1 hover:py-2 hover:rounded-[5px]'>
+                <div className='text-base duration-300 hover:bg-transparent hover:px-1 hover:py-2 hover:rounded-[5px]'>
                     <Link href='/#techstacks'>
                         Tech Stacks
                     </Link>
