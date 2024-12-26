@@ -4,24 +4,29 @@ import Link from 'next/link'
 
 const Navbar = () => {
     return (
-        <nav className='bg-white mx-auto max-w-4xl rounded-[25px] shadow-[0_0_15px_rgba(0,0,0,0.1)]'>
-            <div className='flex justify-center items-center gap-[82px] p-5 font-normal'>
-                <div className='text-lg'>
-                    <Link href='/'>
+        <nav className='bg-transparent mx-auto max-w-2xl'>
+            <div className='flex justify-center items-center gap-[70px] p-5 font-normal'>
+                <div className='text-base duration-300 hover:bg-gray-50 hover:px-1 hover:py-2 hover:rounded-[5px]'>
+                    <Link href='/#home'>
                         Home
                     </Link>
                 </div>
-                <div className='text-lg'>
+                <div className='text-base duration-300 hover:bg-gray-50 hover:px-1 hover:py-2 hover:rounded-[5px]'>
                     <Link href='/#projects'>
                         Projects
                     </Link>
                 </div>
-                <div className='text-lg'>
-                    <Link href='/#about'>
-                        About
+                <div className='text-base duration-300 hover:bg-gray-50 hover:px-1 hover:py-2 hover:rounded-[5px]'>
+                    <Link href='/#techstacks'>
+                        Tech Stacks
                     </Link>
                 </div>
-                <div className='text-lg'>
+                <div className='text-base duration-300 hover:bg-gray-50 hover:px-1 hover:py-2 hover:rounded-[5px]'>
+                    <Link href='/#phase'>
+                        Process
+                    </Link>
+                </div>
+                <div className='text-base duration-300 hover:bg-gray-50 hover:px-1 hover:py-2 hover:rounded-[5px]'>
                     <Link href='/#contact'>
                         Contact
                     </Link>

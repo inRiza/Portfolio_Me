@@ -20,3 +20,30 @@ body {
 .animate-blink {
   animation: blink 1s step-end infinite;
 }
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s step-start infinite;
+}
+
+.moving-element {
+  transition: transform 0.2s ease;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Pastikan canvas berada di belakang konten utama */
+}
+
+html {
+  scroll-behavior: smooth;
+}
